@@ -2,8 +2,8 @@ from alpine:latest
 RUN apk add --no-cache py3-pip \
     && pip3 install --upgrade pip
 
-WORKDIR /app
-COPY . /app
+WORKDIR /app8
+COPY . /app8
 
 RUN pip3 --no-cache-dir install -r requirements.txt
 
